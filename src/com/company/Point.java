@@ -3,8 +3,8 @@ package com.company;
 import java.util.Objects;
 
 class Point {
-    public int x;
-    public int y;
+    int x;
+    int y;
 
 //    public boolean equals(Object o) {
 //        return o != null &&
