@@ -11,7 +11,7 @@ public class Main {
         System.out.println(distance(firstPoint, secondPoint));
     }
 
-    static double distance(Point firstPoint, Point secondPoint) {
+    private static double distance(Point firstPoint, Point secondPoint) {
         int deltaX = (firstPoint.x - secondPoint.x);
         int deltaY = (firstPoint.y - secondPoint.y);
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
